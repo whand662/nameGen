@@ -13,7 +13,9 @@ class NameGen{
 		string genFirst();
 		string genLast();
 		string genFull();
+		string genPlace();
+		string genTeam(bool withPlace);
 		
 	private:
-		vector<string> firstBank, lastBank;
+		vector<string> firstBank, lastBank, placeBank, teamBank;
 };
