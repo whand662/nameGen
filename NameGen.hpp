@@ -1,3 +1,6 @@
+#ifndef _NAMEGEN
+#define _NAMEGEN
+
 #include <string>
 #include <fstream>
 #include <vector>
@@ -19,3 +22,4 @@ class NameGen{
 	private:
 		vector<string> firstBank, lastBank, placeBank, teamBank;
 };
+#endif
