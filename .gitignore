@@ -3,3 +3,4 @@ DOXYGEN_WARNINGS.txt
 Doxyfile
 Makefile
 testGen.cpp
+mainpage.dox

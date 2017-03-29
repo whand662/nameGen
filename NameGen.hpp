@@ -21,7 +21,6 @@ class NameGen {
  public:
 
     //! Constructor that takes no arguments but requires 4 files in ./res/ : first.txt, last.txt, place.txt, and team.txt
-    */
     NameGen();
 
     //! Member function that returns a random first name from firstBank
