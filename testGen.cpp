@@ -7,18 +7,15 @@
   @copyright 2017 Willis Hand
 */
 #include <iostream>
-#include "NameGen.hpp"Name generating object meant to be portable between projects
-
+#include "NameGen.hpp"
 using std::cout;
 
 int main() {
   NameGen ng = NameGen();
-  cout << ng.genFirst() << "\n";
-  cout << ng.genLast() << "\n";
-  cout << ng.genFull() << "\n";
-  cout << ng.genPlace() << "\n";
-  cout << ng.genTeam(false) << "\n";
-  cout << ng.genTeam(true) << "\n";
-  cout << ng.genTeam(true) << "\n";
-  cout << ng.genTeam(true) << "\n";
+  cout << "First: " << ng.genFirst() << "\n";
+  cout << "Last:  " << ng.genLast() << "\n";
+  cout << "Full:  " << ng.genFull() << "\n";
+  cout << "Place: " << ng.genPlace() << "\n";
+  cout << "Team:  " << ng.genTeam(false) << "\n";
+  cout << "Team+: " << ng.genTeam(true) << "\n";
 }

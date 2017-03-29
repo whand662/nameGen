@@ -1,2 +1,5 @@
-# ignore test executable
 test
+DOXYGEN_WARNINGS.txt
+Doxyfile
+Makefile
+testGen.cpp

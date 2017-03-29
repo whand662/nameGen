@@ -27,6 +27,9 @@ class NameGen {
     string genTeam(bool withPlace);
 
  private:
-    vector<string> firstBank, lastBank, placeBank, teamBank;
+    vector<string> firstBank; //<! vector<std::string> containing first names
+    vector<string> lastBank; //<! vector<std::string> containing last names
+    vector<string> placeBank; //<! vector<std::string> containing place names
+    vector<string> teamBank; //<! vector<std::string> containing team names
 };
 #endif
