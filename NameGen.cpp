@@ -3,16 +3,32 @@
   Name generating object meant to be portable between projects
 
   @author Willis Hand
-  @version 1.1
+  @version 1.2
   @copyright 2017 Willis Hand
 */
 #include "NameGen.hpp"
 
 NameGen::NameGen() {
-  ifstream inFile1("./res/first.txt");
-  ifstream inFile2("./res/last.txt");
-  ifstream inFile3("./res/team.txt");
-  ifstream inFile4("./res/place.txt");
+  path1 = "./nameGen/res/first.txt";
+  path2 = "./nameGen/res/last.txt";
+  path3 = "./nameGen/res/team.txt";
+  path4 = "./nameGen/res/place.txt";
+  populate();
+}
+
+NameGen::NameGen(bool inDirectory){
+  path1 = "./res/first.txt";
+  path2 = "./res/last.txt";
+  path3 = "./res/team.txt";
+  path4 = "./res/place.txt";
+  populate();
+}
+
+void NameGen::populate(){
+  ifstream inFile1(path1);
+  ifstream inFile2(path2);
+  ifstream inFile3(path3);
+  ifstream inFile4(path4);
   string temp;
   srand(time(NULL));
 

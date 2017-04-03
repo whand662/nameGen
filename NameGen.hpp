@@ -3,7 +3,7 @@
   Name generating object meant to be portable between projects
 
   @author Willis Hand
-  @version 1.1
+  @version 1.2
   @copyright 2017 Willis Hand
 */
 #ifndef _NAMEGEN
@@ -20,8 +20,17 @@ using namespace std;
 class NameGen {
  public:
 
-    //! Constructor that takes no arguments but requires 4 files in ./res/ : first.txt, last.txt, place.txt, and team.txt
+    //! Constructor that takes no arguments but requires 4 files in ./res/ : first.txt, last.txt, place.txt, and team.txt. Use this constructor when using NameGen from its own subdirectory.
     NameGen();
+
+    //! Constructor that requires 4 files in ./res/ : first.txt, last.txt, place.txt, and team.txt. The value of inDirectory doesn't matter, it just signals that the application is being run from inside the nameGen directory so that the NameGen object will use the right file paths to get to the /res directory.
+    /*!
+      \param inDirectory Regardless of value passed will change filepath from "./nameGen/res/" to "./res/"
+    */
+    NameGen(bool inDirectory);
+
+    //! Called by constructors to populate the vectors with data from .txt files in res.
+    void populate();
 
     //! Member function that returns a random first name from firstBank
     /*!
@@ -55,6 +64,7 @@ class NameGen {
     string genTeam(bool withPlace);
 
  private:
+    string path1, path2, path3, path4;
     vector<string> firstBank; //<! vector<std::string> containing first names
     vector<string> lastBank; //<! vector<std::string> containing last names
     vector<string> placeBank; //<! vector<std::string> containing place names
