@@ -30,7 +30,6 @@ void NameGen::populate(){
   ifstream inFile3(path3);
   ifstream inFile4(path4);
   string temp;
-  srand(time(NULL));
 
   if (inFile1.is_open()) {
       while (getline(inFile1, temp)) {
