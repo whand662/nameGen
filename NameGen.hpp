@@ -65,9 +65,9 @@ class NameGen {
 
  private:
     string path1, path2, path3, path4;
-    vector<string> firstBank; //<! vector<std::string> containing first names
-    vector<string> lastBank; //<! vector<std::string> containing last names
-    vector<string> placeBank; //<! vector<std::string> containing place names
-    vector<string> teamBank; //<! vector<std::string> containing team names
+    static vector<string> firstBank; //<! vector<std::string> containing first names
+    static vector<string> lastBank; //<! vector<std::string> containing last names
+    static vector<string> placeBank; //<! vector<std::string> containing place names
+    static vector<string> teamBank; //<! vector<std::string> containing team names
 };
 #endif

@@ -48,6 +48,7 @@
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classNameGen-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">NameGen Class Reference</div>  </div>
@@ -93,14 +94,17 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9a0e612d169e5a94dec447872a22b4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab44e33fb66be25dfa46f942b71cabe8c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">path4</a></td></tr>
 <tr class="separator:ab44e33fb66be25dfa46f942b71cabe8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87f02ffb3d797fe7eee19676e7018796"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">firstBank</a></td></tr>
-<tr class="separator:a87f02ffb3d797fe7eee19676e7018796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbc34b8a167f3421e9971f27e04b2c24"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#afbc34b8a167f3421e9971f27e04b2c24">lastBank</a></td></tr>
-<tr class="separator:afbc34b8a167f3421e9971f27e04b2c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58b5d0a08cd805c8bf3fd725aa56219a"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#a58b5d0a08cd805c8bf3fd725aa56219a">placeBank</a></td></tr>
-<tr class="separator:a58b5d0a08cd805c8bf3fd725aa56219a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c391720d9341f4de0cb82e1e95b0b1"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#af5c391720d9341f4de0cb82e1e95b0b1">teamBank</a></td></tr>
-<tr class="separator:af5c391720d9341f4de0cb82e1e95b0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ac1c18b052399a0b286e337b95b29ea3c"><td class="memItemLeft" align="right" valign="top">static vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">firstBank</a></td></tr>
+<tr class="separator:ac1c18b052399a0b286e337b95b29ea3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1f753bdb4562672e47a9a9cd4ae5424"><td class="memItemLeft" align="right" valign="top">static vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#ad1f753bdb4562672e47a9a9cd4ae5424">lastBank</a></td></tr>
+<tr class="separator:ad1f753bdb4562672e47a9a9cd4ae5424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eae848600840a21047a731c493a8400"><td class="memItemLeft" align="right" valign="top">static vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#a4eae848600840a21047a731c493a8400">placeBank</a></td></tr>
+<tr class="separator:a4eae848600840a21047a731c493a8400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27594fc56075a48beff4210dc09dc767"><td class="memItemLeft" align="right" valign="top">static vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNameGen.html#a27594fc56075a48beff4210dc09dc767">teamBank</a></td></tr>
+<tr class="separator:a27594fc56075a48beff4210dc09dc767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -120,17 +124,13 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor that takes no arguments but requires 4 files in ./res/ : <a class="el" href="first_8txt.html">first.txt</a>, <a class="el" href="last_8txt.html">last.txt</a>, <a class="el" href="place_8txt.html">place.txt</a>, and <a class="el" href="team_8txt.html">team.txt</a>. Use this constructor when using <a class="el" href="classNameGen.html">NameGen</a> from its own subdirectory. </p>
-<p><a class="el" href="NameGen_8cpp.html">NameGen.cpp</a> Name generating object meant to be portable between projects</p>
-<dl class="section author"><dt>Author</dt><dd>Willis Hand </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.2 </dd></dl>
-<dl class="section copyright"><dt>Copyright</dt><dd>2017 Willis Hand </dd></dl>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00011">11</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00016">16</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
-<p>References <a class="el" href="NameGen_8hpp_source.html#l00067">path1</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path2</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path3</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path4</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                 {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <a class="code" href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">path1</a> = <span class="stringliteral">&quot;./nameGen/res/first.txt&quot;</span>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <a class="code" href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">path2</a> = <span class="stringliteral">&quot;./nameGen/res/last.txt&quot;</span>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <a class="code" href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">path3</a> = <span class="stringliteral">&quot;./nameGen/res/team.txt&quot;</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  <a class="code" href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">path4</a> = <span class="stringliteral">&quot;./nameGen/res/place.txt&quot;</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <a class="code" href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">populate</a>();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div><div class="ttc" id="classNameGen_html_ab44e33fb66be25dfa46f942b71cabe8c"><div class="ttname"><a href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">NameGen::path4</a></div><div class="ttdeci">string path4</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
+<p>References <a class="el" href="NameGen_8hpp_source.html#l00067">path1</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path2</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path3</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path4</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                 {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">path1</a> = <span class="stringliteral">&quot;./nameGen/res/first.txt&quot;</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <a class="code" href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">path2</a> = <span class="stringliteral">&quot;./nameGen/res/last.txt&quot;</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <a class="code" href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">path3</a> = <span class="stringliteral">&quot;./nameGen/res/team.txt&quot;</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">path4</a> = <span class="stringliteral">&quot;./nameGen/res/place.txt&quot;</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <a class="code" href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">populate</a>();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div><div class="ttc" id="classNameGen_html_ab44e33fb66be25dfa46f942b71cabe8c"><div class="ttname"><a href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">NameGen::path4</a></div><div class="ttdeci">string path4</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 <div class="ttc" id="classNameGen_html_a104ff4da2cae01af236eab2dac192958"><div class="ttname"><a href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">NameGen::path2</a></div><div class="ttdeci">string path2</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
-<div class="ttc" id="classNameGen_html_a6ea6d2d4ee009cfa3e62a4e534477049"><div class="ttname"><a href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">NameGen::populate</a></div><div class="ttdeci">void populate()</div><div class="ttdoc">Called by constructors to populate the vectors with data from .txt files in res. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00027">NameGen.cpp:27</a></div></div>
+<div class="ttc" id="classNameGen_html_a6ea6d2d4ee009cfa3e62a4e534477049"><div class="ttname"><a href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">NameGen::populate</a></div><div class="ttdeci">void populate()</div><div class="ttdoc">Called by constructors to populate the vectors with data from .txt files in res. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00032">NameGen.cpp:32</a></div></div>
 <div class="ttc" id="classNameGen_html_aba44dec767b941c96946a920dea8ee0b"><div class="ttname"><a href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">NameGen::path1</a></div><div class="ttdeci">string path1</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 <div class="ttc" id="classNameGen_html_a9a0e612d169e5a94dec447872a22b4f6"><div class="ttname"><a href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">NameGen::path3</a></div><div class="ttdeci">string path3</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 </div><!-- fragment -->
@@ -158,12 +158,12 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00019">19</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00024">24</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
-<p>References <a class="el" href="NameGen_8hpp_source.html#l00067">path1</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path2</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path3</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path4</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">path1</a> = <span class="stringliteral">&quot;./res/first.txt&quot;</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <a class="code" href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">path2</a> = <span class="stringliteral">&quot;./res/last.txt&quot;</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">path3</a> = <span class="stringliteral">&quot;./res/team.txt&quot;</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <a class="code" href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">path4</a> = <span class="stringliteral">&quot;./res/place.txt&quot;</span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <a class="code" href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">populate</a>();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div><div class="ttc" id="classNameGen_html_ab44e33fb66be25dfa46f942b71cabe8c"><div class="ttname"><a href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">NameGen::path4</a></div><div class="ttdeci">string path4</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
+<p>References <a class="el" href="NameGen_8hpp_source.html#l00067">path1</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path2</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path3</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path4</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <a class="code" href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">path1</a> = <span class="stringliteral">&quot;./res/first.txt&quot;</span>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <a class="code" href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">path2</a> = <span class="stringliteral">&quot;./res/last.txt&quot;</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">path3</a> = <span class="stringliteral">&quot;./res/team.txt&quot;</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <a class="code" href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">path4</a> = <span class="stringliteral">&quot;./res/place.txt&quot;</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <a class="code" href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">populate</a>();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div><div class="ttc" id="classNameGen_html_ab44e33fb66be25dfa46f942b71cabe8c"><div class="ttname"><a href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">NameGen::path4</a></div><div class="ttdeci">string path4</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 <div class="ttc" id="classNameGen_html_a104ff4da2cae01af236eab2dac192958"><div class="ttname"><a href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">NameGen::path2</a></div><div class="ttdeci">string path2</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
-<div class="ttc" id="classNameGen_html_a6ea6d2d4ee009cfa3e62a4e534477049"><div class="ttname"><a href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">NameGen::populate</a></div><div class="ttdeci">void populate()</div><div class="ttdoc">Called by constructors to populate the vectors with data from .txt files in res. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00027">NameGen.cpp:27</a></div></div>
+<div class="ttc" id="classNameGen_html_a6ea6d2d4ee009cfa3e62a4e534477049"><div class="ttname"><a href="classNameGen.html#a6ea6d2d4ee009cfa3e62a4e534477049">NameGen::populate</a></div><div class="ttdeci">void populate()</div><div class="ttdoc">Called by constructors to populate the vectors with data from .txt files in res. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00032">NameGen.cpp:32</a></div></div>
 <div class="ttc" id="classNameGen_html_aba44dec767b941c96946a920dea8ee0b"><div class="ttname"><a href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">NameGen::path1</a></div><div class="ttdeci">string path1</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 <div class="ttc" id="classNameGen_html_a9a0e612d169e5a94dec447872a22b4f6"><div class="ttname"><a href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">NameGen::path3</a></div><div class="ttdeci">string path3</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 </div><!-- fragment -->
@@ -186,12 +186,12 @@ Private Attributes</h2></td></tr>
 <p>Member function that returns a random first name from firstBank. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::string </dd></dl>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00077">77</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00085">85</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
 <p>References <a class="el" href="NameGen_8hpp_source.html#l00068">firstBank</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00087">genFull()</a>, and <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                         {</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">firstBank</a>.size();</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">firstBank</a>[temp];</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div><div class="ttc" id="classNameGen_html_a87f02ffb3d797fe7eee19676e7018796"><div class="ttname"><a href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">NameGen::firstBank</a></div><div class="ttdeci">vector&lt; string &gt; firstBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00068">NameGen.hpp:68</a></div></div>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00095">genFull()</a>, and <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                         {</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">firstBank</a>.size();</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">firstBank</a>[temp];</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div><div class="ttc" id="classNameGen_html_ac1c18b052399a0b286e337b95b29ea3c"><div class="ttname"><a href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">NameGen::firstBank</a></div><div class="ttdeci">static vector&lt; string &gt; firstBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00068">NameGen.hpp:68</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -211,13 +211,13 @@ Private Attributes</h2></td></tr>
 <p>Member function that returns a single string containing "&lt;firstname&gt; &lt;lastname&gt;" pulled from <a class="el" href="classNameGen.html#a3368d5936b063ee829b3ebd7b22a42b9" title="Member function that returns a random first name from firstBank. ">genFirst()</a> and <a class="el" href="classNameGen.html#aa34f7a5c021668458f65e936e5c31ba4" title="Member function that returns a random first name from lastBank. ">genLast()</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::string </dd></dl>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00087">87</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00095">95</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
-<p>References <a class="el" href="NameGen_8cpp_source.html#l00077">genFirst()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00082">genLast()</a>.</p>
+<p>References <a class="el" href="NameGen_8cpp_source.html#l00085">genFirst()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00090">genLast()</a>.</p>
 
 <p>Referenced by <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                        {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#a3368d5936b063ee829b3ebd7b22a42b9">genFirst</a>() + <span class="stringliteral">&quot; &quot;</span> + <a class="code" href="classNameGen.html#aa34f7a5c021668458f65e936e5c31ba4">genLast</a>();</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div><div class="ttc" id="classNameGen_html_a3368d5936b063ee829b3ebd7b22a42b9"><div class="ttname"><a href="classNameGen.html#a3368d5936b063ee829b3ebd7b22a42b9">NameGen::genFirst</a></div><div class="ttdeci">string genFirst()</div><div class="ttdoc">Member function that returns a random first name from firstBank. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00077">NameGen.cpp:77</a></div></div>
-<div class="ttc" id="classNameGen_html_aa34f7a5c021668458f65e936e5c31ba4"><div class="ttname"><a href="classNameGen.html#aa34f7a5c021668458f65e936e5c31ba4">NameGen::genLast</a></div><div class="ttdeci">string genLast()</div><div class="ttdoc">Member function that returns a random first name from lastBank. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00082">NameGen.cpp:82</a></div></div>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                        {</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#a3368d5936b063ee829b3ebd7b22a42b9">genFirst</a>() + <span class="stringliteral">&quot; &quot;</span> + <a class="code" href="classNameGen.html#aa34f7a5c021668458f65e936e5c31ba4">genLast</a>();</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div><div class="ttc" id="classNameGen_html_a3368d5936b063ee829b3ebd7b22a42b9"><div class="ttname"><a href="classNameGen.html#a3368d5936b063ee829b3ebd7b22a42b9">NameGen::genFirst</a></div><div class="ttdeci">string genFirst()</div><div class="ttdoc">Member function that returns a random first name from firstBank. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00085">NameGen.cpp:85</a></div></div>
+<div class="ttc" id="classNameGen_html_aa34f7a5c021668458f65e936e5c31ba4"><div class="ttname"><a href="classNameGen.html#aa34f7a5c021668458f65e936e5c31ba4">NameGen::genLast</a></div><div class="ttdeci">string genLast()</div><div class="ttdoc">Member function that returns a random first name from lastBank. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00090">NameGen.cpp:90</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -237,13 +237,13 @@ Private Attributes</h2></td></tr>
 <p>Member function that returns a random first name from lastBank. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::string </dd></dl>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00082">82</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00090">90</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
 <p>References <a class="el" href="NameGen_8hpp_source.html#l00068">firstBank</a>, and <a class="el" href="NameGen_8hpp_source.html#l00069">lastBank</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00087">genFull()</a>, and <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                        {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">firstBank</a>.size();</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#afbc34b8a167f3421e9971f27e04b2c24">lastBank</a>[temp];</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div><div class="ttc" id="classNameGen_html_a87f02ffb3d797fe7eee19676e7018796"><div class="ttname"><a href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">NameGen::firstBank</a></div><div class="ttdeci">vector&lt; string &gt; firstBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00068">NameGen.hpp:68</a></div></div>
-<div class="ttc" id="classNameGen_html_afbc34b8a167f3421e9971f27e04b2c24"><div class="ttname"><a href="classNameGen.html#afbc34b8a167f3421e9971f27e04b2c24">NameGen::lastBank</a></div><div class="ttdeci">vector&lt; string &gt; lastBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00069">NameGen.hpp:69</a></div></div>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00095">genFull()</a>, and <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                        {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">firstBank</a>.size();</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#ad1f753bdb4562672e47a9a9cd4ae5424">lastBank</a>[temp];</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div><div class="ttc" id="classNameGen_html_ad1f753bdb4562672e47a9a9cd4ae5424"><div class="ttname"><a href="classNameGen.html#ad1f753bdb4562672e47a9a9cd4ae5424">NameGen::lastBank</a></div><div class="ttdeci">static vector&lt; string &gt; lastBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00069">NameGen.hpp:69</a></div></div>
+<div class="ttc" id="classNameGen_html_ac1c18b052399a0b286e337b95b29ea3c"><div class="ttname"><a href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">NameGen::firstBank</a></div><div class="ttdeci">static vector&lt; string &gt; firstBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00068">NameGen.hpp:68</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -263,12 +263,12 @@ Private Attributes</h2></td></tr>
 <p>Member function that returns a random place name from placeBank. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::string </dd></dl>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00091">91</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00099">99</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
 <p>References <a class="el" href="NameGen_8hpp_source.html#l00070">placeBank</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00096">genTeam()</a>, and <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                         {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#a58b5d0a08cd805c8bf3fd725aa56219a">placeBank</a>.size();</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#a58b5d0a08cd805c8bf3fd725aa56219a">placeBank</a>[temp];</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div><div class="ttc" id="classNameGen_html_a58b5d0a08cd805c8bf3fd725aa56219a"><div class="ttname"><a href="classNameGen.html#a58b5d0a08cd805c8bf3fd725aa56219a">NameGen::placeBank</a></div><div class="ttdeci">vector&lt; string &gt; placeBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00070">NameGen.hpp:70</a></div></div>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00104">genTeam()</a>, and <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                         {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#a4eae848600840a21047a731c493a8400">placeBank</a>.size();</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#a4eae848600840a21047a731c493a8400">placeBank</a>[temp];</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div><div class="ttc" id="classNameGen_html_a4eae848600840a21047a731c493a8400"><div class="ttname"><a href="classNameGen.html#a4eae848600840a21047a731c493a8400">NameGen::placeBank</a></div><div class="ttdeci">static vector&lt; string &gt; placeBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00070">NameGen.hpp:70</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -295,13 +295,13 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>std::string </dd></dl>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00096">96</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00104">104</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
-<p>References <a class="el" href="NameGen_8cpp_source.html#l00091">genPlace()</a>, and <a class="el" href="NameGen_8hpp_source.html#l00071">teamBank</a>.</p>
+<p>References <a class="el" href="NameGen_8cpp_source.html#l00099">genPlace()</a>, and <a class="el" href="NameGen_8hpp_source.html#l00071">teamBank</a>.</p>
 
 <p>Referenced by <a class="el" href="testGen_8cpp_source.html#l00013">main()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                      {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#af5c391720d9341f4de0cb82e1e95b0b1">teamBank</a>.size();</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordtype">string</span> hold = <a class="code" href="classNameGen.html#af5c391720d9341f4de0cb82e1e95b0b1">teamBank</a>[temp];</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keywordflow">if</span> (withPlace) {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#adda1ccb50db131fcfdec0b17b102c059">genPlace</a>() + <span class="stringliteral">&quot; &quot;</span> + hold;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">return</span> hold;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  }</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div><div class="ttc" id="classNameGen_html_adda1ccb50db131fcfdec0b17b102c059"><div class="ttname"><a href="classNameGen.html#adda1ccb50db131fcfdec0b17b102c059">NameGen::genPlace</a></div><div class="ttdeci">string genPlace()</div><div class="ttdoc">Member function that returns a random place name from placeBank. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00091">NameGen.cpp:91</a></div></div>
-<div class="ttc" id="classNameGen_html_af5c391720d9341f4de0cb82e1e95b0b1"><div class="ttname"><a href="classNameGen.html#af5c391720d9341f4de0cb82e1e95b0b1">NameGen::teamBank</a></div><div class="ttdeci">vector&lt; string &gt; teamBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00071">NameGen.hpp:71</a></div></div>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                      {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keywordtype">int</span> temp = rand() % <a class="code" href="classNameGen.html#a27594fc56075a48beff4210dc09dc767">teamBank</a>.size();</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keywordtype">string</span> hold = <a class="code" href="classNameGen.html#a27594fc56075a48beff4210dc09dc767">teamBank</a>[temp];</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordflow">if</span> (withPlace) {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classNameGen.html#adda1ccb50db131fcfdec0b17b102c059">genPlace</a>() + <span class="stringliteral">&quot; &quot;</span> + hold;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">return</span> hold;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  }</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div><div class="ttc" id="classNameGen_html_a27594fc56075a48beff4210dc09dc767"><div class="ttname"><a href="classNameGen.html#a27594fc56075a48beff4210dc09dc767">NameGen::teamBank</a></div><div class="ttdeci">static vector&lt; string &gt; teamBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00071">NameGen.hpp:71</a></div></div>
+<div class="ttc" id="classNameGen_html_adda1ccb50db131fcfdec0b17b102c059"><div class="ttname"><a href="classNameGen.html#adda1ccb50db131fcfdec0b17b102c059">NameGen::genPlace</a></div><div class="ttdeci">string genPlace()</div><div class="ttdoc">Member function that returns a random place name from placeBank. </div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8cpp_source.html#l00099">NameGen.cpp:99</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -320,24 +320,24 @@ Private Attributes</h2></td></tr>
 
 <p>Called by constructors to populate the vectors with data from .txt files in res. </p>
 
-<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00027">27</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
+<p>Definition at line <a class="el" href="NameGen_8cpp_source.html#l00032">32</a> of file <a class="el" href="NameGen_8cpp_source.html">NameGen.cpp</a>.</p>
 
 <p>References <a class="el" href="NameGen_8hpp_source.html#l00068">firstBank</a>, <a class="el" href="NameGen_8hpp_source.html#l00069">lastBank</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path1</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path2</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path3</a>, <a class="el" href="NameGen_8hpp_source.html#l00067">path4</a>, <a class="el" href="NameGen_8hpp_source.html#l00070">placeBank</a>, and <a class="el" href="NameGen_8hpp_source.html#l00071">teamBank</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00011">NameGen()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                      {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  ifstream inFile1(<a class="code" href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">path1</a>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  ifstream inFile2(<a class="code" href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">path2</a>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  ifstream inFile3(<a class="code" href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">path3</a>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  ifstream inFile4(<a class="code" href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">path4</a>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">string</span> temp;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  srand(time(NULL));</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">if</span> (inFile1.is_open()) {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      <span class="keywordflow">while</span> (getline(inFile1, temp)) {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <a class="code" href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">firstBank</a>.push_back(temp);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      inFile1.close();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keywordflow">if</span> (inFile2.is_open()) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      <span class="keywordflow">while</span> (getline(inFile2, temp)) {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      <a class="code" href="classNameGen.html#afbc34b8a167f3421e9971f27e04b2c24">lastBank</a>.push_back(temp);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      inFile2.close();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">if</span> (inFile3.is_open()) {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <span class="keywordflow">while</span> (getline(inFile3, temp)) {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      <a class="code" href="classNameGen.html#af5c391720d9341f4de0cb82e1e95b0b1">teamBank</a>.push_back(temp);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      inFile3.close();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordflow">if</span> (inFile4.is_open()) {</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">while</span> (getline(inFile4, temp)) {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <a class="code" href="classNameGen.html#a58b5d0a08cd805c8bf3fd725aa56219a">placeBank</a>.push_back(temp);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      inFile4.close();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <a class="code" href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">firstBank</a>.shrink_to_fit();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <a class="code" href="classNameGen.html#afbc34b8a167f3421e9971f27e04b2c24">lastBank</a>.shrink_to_fit();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <a class="code" href="classNameGen.html#af5c391720d9341f4de0cb82e1e95b0b1">teamBank</a>.shrink_to_fit();</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <a class="code" href="classNameGen.html#a58b5d0a08cd805c8bf3fd725aa56219a">placeBank</a>.shrink_to_fit();</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div><div class="ttc" id="classNameGen_html_a87f02ffb3d797fe7eee19676e7018796"><div class="ttname"><a href="classNameGen.html#a87f02ffb3d797fe7eee19676e7018796">NameGen::firstBank</a></div><div class="ttdeci">vector&lt; string &gt; firstBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00068">NameGen.hpp:68</a></div></div>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00016">NameGen()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                      {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">firstBank</a>.size() &gt; 0){</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    printf(<span class="stringliteral">&quot;Already loaded\n&quot;</span>);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  ifstream inFile1(<a class="code" href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">path1</a>);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  ifstream inFile2(<a class="code" href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">path2</a>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  ifstream inFile3(<a class="code" href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">path3</a>);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  ifstream inFile4(<a class="code" href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">path4</a>);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">string</span> temp;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">if</span> (inFile1.is_open()) {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      <span class="keywordflow">while</span> (getline(inFile1, temp)) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      <a class="code" href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">firstBank</a>.push_back(temp);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      inFile1.close();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordflow">if</span> (inFile2.is_open()) {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keywordflow">while</span> (getline(inFile2, temp)) {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <a class="code" href="classNameGen.html#ad1f753bdb4562672e47a9a9cd4ae5424">lastBank</a>.push_back(temp);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      inFile2.close();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordflow">if</span> (inFile3.is_open()) {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <span class="keywordflow">while</span> (getline(inFile3, temp)) {</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <a class="code" href="classNameGen.html#a27594fc56075a48beff4210dc09dc767">teamBank</a>.push_back(temp);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      inFile3.close();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordflow">if</span> (inFile4.is_open()) {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">while</span> (getline(inFile4, temp)) {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <a class="code" href="classNameGen.html#a4eae848600840a21047a731c493a8400">placeBank</a>.push_back(temp);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      inFile4.close();</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      printf(<span class="stringliteral">&quot;Unable to open input file\n&quot;</span>);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <a class="code" href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">firstBank</a>.shrink_to_fit();</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <a class="code" href="classNameGen.html#ad1f753bdb4562672e47a9a9cd4ae5424">lastBank</a>.shrink_to_fit();</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <a class="code" href="classNameGen.html#a27594fc56075a48beff4210dc09dc767">teamBank</a>.shrink_to_fit();</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <a class="code" href="classNameGen.html#a4eae848600840a21047a731c493a8400">placeBank</a>.shrink_to_fit();</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div><div class="ttc" id="classNameGen_html_a4eae848600840a21047a731c493a8400"><div class="ttname"><a href="classNameGen.html#a4eae848600840a21047a731c493a8400">NameGen::placeBank</a></div><div class="ttdeci">static vector&lt; string &gt; placeBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00070">NameGen.hpp:70</a></div></div>
 <div class="ttc" id="classNameGen_html_ab44e33fb66be25dfa46f942b71cabe8c"><div class="ttname"><a href="classNameGen.html#ab44e33fb66be25dfa46f942b71cabe8c">NameGen::path4</a></div><div class="ttdeci">string path4</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 <div class="ttc" id="classNameGen_html_a104ff4da2cae01af236eab2dac192958"><div class="ttname"><a href="classNameGen.html#a104ff4da2cae01af236eab2dac192958">NameGen::path2</a></div><div class="ttdeci">string path2</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
-<div class="ttc" id="classNameGen_html_af5c391720d9341f4de0cb82e1e95b0b1"><div class="ttname"><a href="classNameGen.html#af5c391720d9341f4de0cb82e1e95b0b1">NameGen::teamBank</a></div><div class="ttdeci">vector&lt; string &gt; teamBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00071">NameGen.hpp:71</a></div></div>
-<div class="ttc" id="classNameGen_html_a58b5d0a08cd805c8bf3fd725aa56219a"><div class="ttname"><a href="classNameGen.html#a58b5d0a08cd805c8bf3fd725aa56219a">NameGen::placeBank</a></div><div class="ttdeci">vector&lt; string &gt; placeBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00070">NameGen.hpp:70</a></div></div>
-<div class="ttc" id="classNameGen_html_afbc34b8a167f3421e9971f27e04b2c24"><div class="ttname"><a href="classNameGen.html#afbc34b8a167f3421e9971f27e04b2c24">NameGen::lastBank</a></div><div class="ttdeci">vector&lt; string &gt; lastBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00069">NameGen.hpp:69</a></div></div>
+<div class="ttc" id="classNameGen_html_a27594fc56075a48beff4210dc09dc767"><div class="ttname"><a href="classNameGen.html#a27594fc56075a48beff4210dc09dc767">NameGen::teamBank</a></div><div class="ttdeci">static vector&lt; string &gt; teamBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00071">NameGen.hpp:71</a></div></div>
+<div class="ttc" id="classNameGen_html_ad1f753bdb4562672e47a9a9cd4ae5424"><div class="ttname"><a href="classNameGen.html#ad1f753bdb4562672e47a9a9cd4ae5424">NameGen::lastBank</a></div><div class="ttdeci">static vector&lt; string &gt; lastBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00069">NameGen.hpp:69</a></div></div>
 <div class="ttc" id="classNameGen_html_aba44dec767b941c96946a920dea8ee0b"><div class="ttname"><a href="classNameGen.html#aba44dec767b941c96946a920dea8ee0b">NameGen::path1</a></div><div class="ttdeci">string path1</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
 <div class="ttc" id="classNameGen_html_a9a0e612d169e5a94dec447872a22b4f6"><div class="ttname"><a href="classNameGen.html#a9a0e612d169e5a94dec447872a22b4f6">NameGen::path3</a></div><div class="ttdeci">string path3</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00067">NameGen.hpp:67</a></div></div>
+<div class="ttc" id="classNameGen_html_ac1c18b052399a0b286e337b95b29ea3c"><div class="ttname"><a href="classNameGen.html#ac1c18b052399a0b286e337b95b29ea3c">NameGen::firstBank</a></div><div class="ttdeci">static vector&lt; string &gt; firstBank</div><div class="ttdef"><b>Definition:</b> <a href="NameGen_8hpp_source.html#l00068">NameGen.hpp:68</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a87f02ffb3d797fe7eee19676e7018796"></a>
+<a class="anchor" id="ac1c18b052399a0b286e337b95b29ea3c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -345,23 +345,27 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;string&gt; NameGen::firstBank</td>
+          <td class="memname">vector&lt; string &gt; NameGen::firstBank</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a class="el" href="NameGen_8cpp.html">NameGen.cpp</a> Name generating object meant to be portable between projects</p>
+<dl class="section author"><dt>Author</dt><dd>Willis Hand </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.2 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>2017 Willis Hand </dd></dl>
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00068">68</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00077">genFirst()</a>, <a class="el" href="NameGen_8cpp_source.html#l00082">genLast()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00085">genFirst()</a>, <a class="el" href="NameGen_8cpp_source.html#l00090">genLast()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afbc34b8a167f3421e9971f27e04b2c24"></a>
+<a class="anchor" id="ad1f753bdb4562672e47a9a9cd4ae5424"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -369,19 +373,19 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;string&gt; NameGen::lastBank</td>
+          <td class="memname">vector&lt; string &gt; NameGen::lastBank</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00069">69</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00082">genLast()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00090">genLast()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>
@@ -405,7 +409,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00067">67</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00011">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00016">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>
@@ -429,7 +433,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00067">67</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00011">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00016">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>
@@ -453,7 +457,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00067">67</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00011">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00016">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>
@@ -477,11 +481,11 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00067">67</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00011">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00016">NameGen()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a58b5d0a08cd805c8bf3fd725aa56219a"></a>
+<a class="anchor" id="a4eae848600840a21047a731c493a8400"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -489,23 +493,23 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;string&gt; NameGen::placeBank</td>
+          <td class="memname">vector&lt; string &gt; NameGen::placeBank</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00070">70</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00091">genPlace()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00099">genPlace()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af5c391720d9341f4de0cb82e1e95b0b1"></a>
+<a class="anchor" id="a27594fc56075a48beff4210dc09dc767"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -513,19 +517,19 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;string&gt; NameGen::teamBank</td>
+          <td class="memname">vector&lt; string &gt; NameGen::teamBank</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="NameGen_8hpp_source.html#l00071">71</a> of file <a class="el" href="NameGen_8hpp_source.html">NameGen.hpp</a>.</p>
 
-<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00096">genTeam()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00027">populate()</a>.</p>
+<p>Referenced by <a class="el" href="NameGen_8cpp_source.html#l00104">genTeam()</a>, and <a class="el" href="NameGen_8cpp_source.html#l00032">populate()</a>.</p>
 
 </div>
 </div>

@@ -8,6 +8,11 @@
 */
 #include "NameGen.hpp"
 
+vector<string> NameGen::firstBank;
+vector<string> NameGen::lastBank;
+vector<string> NameGen::placeBank;
+vector<string> NameGen::teamBank;
+
 NameGen::NameGen() {
   path1 = "./nameGen/res/first.txt";
   path2 = "./nameGen/res/last.txt";
@@ -25,6 +30,10 @@ NameGen::NameGen(bool inDirectory){
 }
 
 void NameGen::populate(){
+  if(firstBank.size() > 0){
+    printf("Already loaded\n");
+    return;
+  }
   ifstream inFile1(path1);
   ifstream inFile2(path2);
   ifstream inFile3(path3);
