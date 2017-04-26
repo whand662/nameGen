@@ -3,7 +3,7 @@
   Name generating object meant to be portable between projects
 
   @author Willis Hand
-  @version 1.2
+  @version 2.0
   @copyright 2017 Willis Hand
 */
 #include "NameGen.hpp"
