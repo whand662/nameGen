@@ -31,7 +31,7 @@ NameGen::NameGen(bool inDirectory){
 
 void NameGen::populate(){
   if(firstBank.size() > 0){
-    printf("Already loaded\n");
+    //printf("Already loaded\n");
     return;
   }
   ifstream inFile1(path1);
