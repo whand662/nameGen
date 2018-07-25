@@ -21,11 +21,11 @@ NameGen::NameGen() {
   populate();
 }
 
-NameGen::NameGen(bool inDirectory){
-  path1 = "./res/first.txt";
-  path2 = "./res/last.txt";
-  path3 = "./res/team.txt";
-  path4 = "./res/place.txt";
+NameGen::NameGen(string inDirectory){
+  path1 = inDirectory + "first.txt";
+  path2 = inDirectory + "last.txt";
+  path3 = inDirectory + "team.txt";
+  path4 = inDirectory + "place.txt";
   populate();
 }
 
@@ -110,4 +110,3 @@ string NameGen::genTeam(bool withPlace) {
     return hold;
   }
 }
-

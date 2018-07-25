@@ -3,4 +3,6 @@ DOXYGEN_WARNINGS.txt
 Doxyfile
 Makefile
 testGen.cpp
+testGen.java
+testGen.class
 mainpage.dox

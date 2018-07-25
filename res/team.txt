@@ -237,9 +237,6 @@ Barrage
 Barristers
 Barrons
 Basches
-Baseball
-Baseball Club
-Baseball Stars
 Bathers
 Bats
 Battalion
@@ -972,7 +969,6 @@ Cokers
 Colleens
 Collegians
 Collegiate
-Collegiate Baseball Club
 Colonels
 Colonets
 Colonial Colts
@@ -1618,7 +1614,6 @@ Flying Tigers
 Fog
 Fog Devils
 Foot Trackers
-Football Club
 Foothillers
 Force
 Ford
@@ -2454,7 +2449,6 @@ Kiss
 Kittens
 Kixx
 Klippers
-Knickerbocker Baseball Club
 Knickerbockers
 Knicks
 Knightcats
@@ -4255,8 +4249,6 @@ Snowbirds
 Snowcats
 Soaring Eagles
 Sobos
-Soccer
-Soccer Club
 Socials
 Sockadillos
 Sockers

@@ -25,9 +25,9 @@ class NameGen {
 
     //! Constructor that requires 4 files in ./res/ : first.txt, last.txt, place.txt, and team.txt. The value of inDirectory doesn't matter, it just signals that the application is being run from inside the nameGen directory so that the NameGen object will use the right file paths to get to the /res directory.
     /*!
-      \param inDirectory Regardless of value passed will change filepath from "./nameGen/res/" to "./res/"
+      \param inDirectory Allows you to specify your own path to the name files
     */
-    NameGen(bool inDirectory);
+    NameGen(string inDirectory);
 
     //! Called by constructors to populate the vectors with data from .txt files in res.
     void populate();
